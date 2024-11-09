@@ -1,0 +1,32 @@
+@media(min-width: 1920px) {
+  header {
+    width: 1920px;
+  }
+
+  .main-article {
+    width: 1920px;
+  }
+
+  .sharing-area {
+    left: 1793px;
+    right: auto;
+  }
+
+  footer {
+    width: 1920px;
+  }
+}
+
+@media(max-width: 600px) {
+  header {
+    width: 600px;
+  }
+
+  .main-article {
+    width: 600px;
+  }
+  
+  footer {
+    width: 600px;
+  }
+}

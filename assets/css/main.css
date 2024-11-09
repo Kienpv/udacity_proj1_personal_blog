@@ -1,5 +1,8 @@
-@import url("common.css");
-@import url("post_style.css");
+@import url("core.css");
+@import url("post.css");
+@import url("header.css");
+@import url("footer.css");
+@import url("responsive.css");
 
 body {
   display: flex;
@@ -8,17 +11,6 @@ body {
   font-family: Arial;
   margin: 0;
   background: #fff;
-}
-
-header {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  height: 56px;
-  width: 100%;
-  text-align: center;
-  background: #0F0F0F;
-  z-index: 2;
 }
 
 main {
@@ -155,50 +147,3 @@ main {
   text-align: left;
   font-size: 12px;
 } 
-
-footer {
-  width: 100%;
-  height: 56px;
-  padding-top: 0.1px;
-  background-color: #EEEEF0;
-  text-align: center;
-  z-index: 1;
-  clear: both;
-}
-
-.footer-copyright {
-  color: #0F0F0F;
-}
-
-@media(min-width: 1920px) {
-  header {
-    width: 1920px;
-  }
-
-  .main-article {
-    width: 1920px;
-  }
-
-  .sharing-area {
-    left: 1793px;
-    right: auto;
-  }
-
-  footer {
-    width: 1920px;
-  }
-}
-
-@media(max-width: 600px) {
-  header {
-    width: 600px;
-  }
-
-  .main-article {
-    width: 600px;
-  }
-  
-  footer {
-    width: 600px;
-  }
-}
