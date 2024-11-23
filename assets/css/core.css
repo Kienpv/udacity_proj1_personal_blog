@@ -1,13 +1,13 @@
 
 a {
-    text-decoration: none;
-    color: inherit;
-    text-overflow: ellipsis;
+  text-decoration: none;
+  color: inherit;
+  text-overflow: ellipsis;
 }
 
 a:hover {
-    text-decoration: none;
-    color: #308d46;
+  text-decoration: none;
+  color: #308d46;
 }
 
 h1,
@@ -17,4 +17,17 @@ h4,
 h5,
 h6 {
     font-family: "Helvetica", "Arial", sans-serif;
+}
+
+body, div, p, a, img, input, button, article, header, h1, h2, h3, h4, h5, h6
+{
+  padding:0; 
+  margin:0;
+  border: 0;
+  font-size: inherit;
+}
+
+img, picture {
+  max-width: 100%;
+  object-fit: contain;
 }

@@ -1,5 +1,5 @@
 header {
-  position: fixed;
+  position: relative;
   top: 0px;
   left: 0px;
   height: 56px;
@@ -7,4 +7,47 @@ header {
   text-align: center;
   background: #0F0F0F;
   z-index: 2;
+}
+
+.main-logo {
+  position: absolute;
+  top: 10px;
+  left: 56px;
+  height: 36px; 
+  width: 36px;
+  z-index: 3;
+}
+
+.search-area {
+  position: absolute;
+  top: 10px;
+  right: 56px;
+  height: 36px;
+  width: 360px;
+  background-color: #0F0F0F;
+}
+
+.search-input {
+  position: relative;
+  height: 100%; 
+  width: 85%;
+}
+
+.search-input input {
+  height: 100%; 
+  width: 100%;
+}
+
+.search-btn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 100%; 
+  width: 36px;
+  z-index: 3;
+}
+
+.search-btn button {
+  height: 100%; 
+  width: 100%;
 }
